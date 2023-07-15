@@ -1,0 +1,274 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #e6e6e6;
+}
+        /* Website logo  */
+.logo {
+    width: 150px;
+
+}
+       /* Main heading of website */
+.header {
+    box-shadow: 22px 8px 30px #fdfcfc;
+    background-color: #e6e6e6;
+    font-family: -webkit-body;
+
+}
+   /* Adjustment of register or login and social icons  */
+.nav1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+  /* Anchor style removing and specifing color of register or login  */
+.nav1 a {
+    text-decoration: none;
+    color: rgba(77, 74, 74, 0.863);
+}
+    /* Adding hover in login or register to show they are link to a specific page */
+.nav1 a:hover {
+    color: #da8a87;
+}
+   /* Adjusting list of navigation iteams shown at top */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 230px;
+}
+ /* listing style shown in bullets removing and adjusting navigation iteams */
+.navbar li {
+    list-style: none;
+    padding: 0px 10px;
+}
+ /* Anchor style removing and specifing color and size of navigation iteams */
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 501;
+    color: rgba(77, 74, 74, 0.863);
+}
+ /* Adding hover in navigation iteams to show they are link to a specific page */
+.navbar li a:hover {
+    color: #da8a87;
+}
+/* Adjusting slider effect frame  */
+.slider-frame {
+    height: 800px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+/* slide animation */
+@keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: 1200px;
+    }
+
+    30% {
+        left: 1200px;
+    }
+
+    40% {
+        left: 2400px;
+    }
+
+    50% {
+        left: 2400px;
+    }
+
+    60% {
+        left: 1200px;
+    }
+
+    70% {
+        left: 1200px;
+    }
+
+    80% {
+        left: 0px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: 1200px;
+    }
+
+    30% {
+        left: 1200px;
+    }
+
+    40% {
+        left: 2400px;
+    }
+
+    50% {
+        left: 2400px;
+    }
+
+    60% {
+        left: 1200px;
+    }
+
+    70% {
+        left: 1200px;
+    }
+
+    80% {
+        left: 0px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+   /* Class containg all images include in slider */
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+    /* Class of images shown in sliding effect */
+.img-container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+} 
+
+.index-category{
+    width: 100%;
+    padding: 60px 0;
+    background : #e28783;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px ;
+    flex-wrap: wrap;
+    
+   
+  
+  }
+  .index-category-box{
+    width: 250px;
+    height: 250px;
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+   
+  }
+  .index-category-box:nth-child(1){
+     background-image: url(../public/img/clothing/11211214b93de76e00be6c59b162f70b.jpg);
+  }
+  .index-category-box:nth-child(2){
+     background-image: url(../public/img/clothing/1daa2f17e5770c0ff4b8ac77c8c5ae9e.jpg);
+  }
+  .index-category-box:nth-child(3){
+     background-image: url(../public/img/shoes/14e2aee850ce3f19c91302127ee4cc9d.jpg);
+  }
+  .index-category-box:nth-child(4){
+     background-image: url(../public/img/shoes/311849af0515f2c11b77fb3329092fbf.jpg);
+  }
+  .index-category-box:nth-child(5){
+     background-image: url(../public/img/perfume/2db230d57919879eb3c3069030eb64f4.jpg);
+  }
+  .index-category-box:nth-child(6){
+     background-image: url(../public/img/beauty/28d02f2f7c57c9b9cc182612fc52c608.jpg);
+  }
+  .index-category-box:nth-child(7){
+     background-image: url(../public/img/beauty/1c554bc6e67086b6a9ff139ac1eee0c7.jpg);
+  }
+  
+  .dark-overlay{
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: black;
+     opacity: 0.5;
+     transition: all ease-in-out 200ms;
+  }
+  .index-category-box:hover .dark-overlay {
+    opacity: 0;
+  }
+  
+  
+  .index-category-box h3{
+    font-size:18px ;
+    line-height: 28px;
+    text-align: center;
+    color: #e6e6e6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large ;
+    font-weight: 545;
+    z-index: 100;
+  }
+  .index-category-box h3:hover{
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .categories h1{
+    text-align: center;
+    color: black;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 547;
+    text-transform: uppercase;
+  }
