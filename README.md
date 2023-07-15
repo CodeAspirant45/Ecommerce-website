@@ -1,2 +1,3 @@
 # Ecommerce-website
-Frontend: html, css, javascript nodejs, mongoDB
+Frontend: html, css, javascript 
+Backend: nodeJS, mongoDB
